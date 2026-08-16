@@ -12,6 +12,7 @@ const campaignSchema = new mongoose.Schema(
       type: String,
       required: [true, "Client name is required"],
       trim: true,
+      
       index: true,
     },
     totalTasks: {
