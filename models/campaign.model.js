@@ -73,6 +73,7 @@ const campaignSchema = new mongoose.Schema(
       type: Date,
       required: [true, "targetCompletionDate is required"],
       index: true,
+      
     },
   },
   {
